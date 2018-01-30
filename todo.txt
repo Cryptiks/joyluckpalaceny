@@ -1,0 +1,3 @@
+-align tables
+-reduce image sizes
+-fix mobile

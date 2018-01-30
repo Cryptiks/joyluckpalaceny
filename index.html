@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="description" content=
+    "Joy Luck Palace is a dim sum place located in the heart of chinatown that offers your typical
+    dim sum foods as well as a variety of specialties such as the piggy buns.">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Luck Palace | New York</title>
+    <!-- <link rel="icon" type="image/png" href="images/bean.png"> -->
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="/javascripts/angular-ui-router.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-73803758-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id = "container" ng-app="app">
+    <header>
+      <h1> Joy Luck Palace</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a ui-sref="home">Home</a></li>
+        <li><a ui-sref="menu">Menu</a></li>
+        <li><a ui-sref="gallery">Gallery</a></li>
+        <li><a ui-sref="about">About</a></li>
+        <li><a ui-sref="press">Press</a></li>
+        <li><a ui-sref="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <hr class ="firsthr">
+
+    <div id="main">
+      <div ui-view></div>
+    </div>
+
+    <hr>
+
+    <footer>
+      <p class="credit">Joy Luck Palace </p>
+      <p class="credit">98 Mott Street, New York, NY 10013</p>
+      <p class="credit">Little Italy, Chinatown</p>
+      <div class="socialmedia">
+        <p> Follow us on social media! </p>
+        <a target="_blank" href="https://www.facebook.com/pages/Joy-luck-Palace/534942273327751"><img alt="Facebook" src="images/facebook.png" height="50" width="50"></a>
+        <a target="_blank" href="https://twitter.com/joyluckpalaceny"><img alt="Twitter" src="images/twitter.png" height="50" width="50"></a>
+        <a target="_blank" href="https://www.instagram.com/joyluckpalace/"><img alt="Instagram" src="images/instagram.png" height="50" width="50"></a>
+      </div>
+    </footer>
+    </div>
+
+  </body>
+
+</html>

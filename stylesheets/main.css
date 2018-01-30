@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Raleway;
+  src:
+    url('fonts/raleway_thin-webfont.ttf'),
+    url('fonts/raleway_thin-webfont.svg'),
+    url('fonts/raleway_thin-webfont.woff'),
+    url('fonts/raleway_thin-webfont.eot');
+}
+header {
+  height: 40px;
+  text-align: center;
+}
+
+body {
+  font-family: Raleway, Helvetica;
+  font-weight: bold;
+  background-color: Beige;
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+nav {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding-left: 20px;
+  padding-top:20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hours > ul {
+  padding-left: 0px;
+}
+
+li {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+nav > ul > li {
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+.about {
+  font-size: 1.2em;
+}
+
+main  {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+figure {
+  margin-top: 120px;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+img.banner {
+  width: 100%;
+  height: auto;
+}
+
+
+hr {
+  clear: both;
+  border: 0;
+  height: 1px;
+  background-color: lightblue;
+}
+
+footer {
+  padding-top: 2px;
+  padding-bottom: 12px;
+}
+
+.credit {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.textalign {
+  text-align: center;
+}
+
+.socialmedia {
+  text-align: center;
+}
+
+
+a:link, a:visited {
+  color: grey;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+.image {
+  width: 98%;
+  height: 100%;
+}
+
+.gallery {
+  /*width: 540px;
+  height: 540px;*/
+  width: 280px;
+  height: 280px;
+}
+
+th {
+  font-size: 36px;
+}
+
+@media only screen and (min-width: 640px) {
+  nav {
+    width: 750px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  li {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
+
+  nav > ul > li {
+    float: left;
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+    width: 110px;
+  }
+
+  figure {
+    margin-top: 60px;
+  }
+
+  .socialmedia {
+    float: right;
+  }
+
+  .hours {
+    float: left;
+    margin-left: 50px;
+  }
+
+}
